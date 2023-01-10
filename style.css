@@ -15,14 +15,14 @@ body {
 
 .button {
     background-color: #090620;
-    border: white 3px;
+    border: none;
     color: white;
     padding: 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
-    margin: 4px 2px;
+    margin: 4px 4px;
     border-radius: 50%;
     position: absolute;
     bottom: 15%;
