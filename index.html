@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas" onclick="resetGame()"></canvas>
+    <img id="backgroundImage_1" src="images/background/layer-1.png" , class="background_image">
+    <img id="backgroundImage_2" src="images/background/layer-2.png" , class="background_image">
+    <img id="backgroundImage_3" src="images/background/layer-3.png" , class="background_image">
+    <img id="backgroundImage_4" src="images/background/layer-4.png" , class="background_image">
+
+    <img id="playerImage" src="images/player/bird.png" , class="player_image">
+    <img id="obstacleImage" src="images/obstacle/obstacle.png" , class="obstacle_image">
+
+    <button class="button up_button" onmousedown="up_down()" onmouseup="up_up()">&#8679;</button>
+    <button class="button down_button" onmousedown="down_down()" onmouseup="down_up()">&#8681;</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
